@@ -7,7 +7,7 @@ author:     "Jason Tang"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - 会议笔记 Payless Traffic
+    - 会议笔记
 ---
 
 > Payless Meeting NOTE:
