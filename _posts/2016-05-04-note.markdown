@@ -1,10 +1,10 @@
 ---
 
 layout:     post
-title:      "2016-05-04-Note"
+title:      "20160504Note"
 subtitle:   "会议笔记"
 date:       2016-05-04 12:00:00
-author:     "Jason Tang"
+author:     "JasonTang"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
