@@ -2,7 +2,6 @@
 layout:     post
 title:      "MEETING NOTE"
 subtitle:   "章玥"
-date:       2016-05-04 12:00:00
 author:     "Jason Tang"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
