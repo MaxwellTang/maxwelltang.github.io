@@ -13,14 +13,19 @@ tags:
 > 命令模式是常用的行为型设计模式之一，它将请求发送者与请求接受者解耦，请求发送者通过命令对象来间接引用接受者，使得系统具有更好的灵活性，可以在不修改系统源代码的情况下将相同的发送者对应不同的接受者，也可以将多个命令对象组合成宏命令，还可以在命令类中提供用来撤销请求的方法。
 
 ##模式定义
+
 Command Pattern：
+
 > 将一个请求封装成一个对象，从而使我们可用不同的请求对客户进行参数化；对请求排队或者记录请求日志，以及支持可撤销的操作。命令模式是一种对象行为型模式，别名为动作模式或事务模式。
 
 ##模式结构与分析
+
 ###1.模式结构
+
 命令模式包含如下角色：
 
 ![命令模式UML][1]
+
 |角色|详细|
 |--|--|
 |Command|该类一般是一个接口，生命了用于执行请求的execute()等方法，通过这些方法可以调用请求接受者的相关操作|
@@ -31,14 +36,18 @@ Command Pattern：
 
 
 ###2.模式分析
+
 典型的Command类代码：
+
 ```java
 public abstract class Command
 {
     public abstract void execute();
 }
 ```
+
 典型的Invoker类代码：
+
 ```java
 public class Invoker
 {
@@ -57,7 +66,9 @@ public class Invoker
     }
 }
 ```
+
 典型的ConcreteCommand类代码：
+
 ```java
 public class ConcreteCommand extends Command
 {
@@ -68,7 +79,9 @@ public class ConcreteCommand extends Command
     }
 }
 ```
+
 典型的Receiver类代码：
+
 ```java
 public class Receiver
 {
@@ -80,10 +93,13 @@ public class Receiver
 ```
 
 ##命令模式扩展
+
 ###撤销操作的实现
+
 > 对Command类进行修改使得系统支持撤销操作和恢复操作
 
 简单的例子：
+
 ```java
 public abstract class Command
 {
@@ -91,7 +107,9 @@ public abstract class Command
     public abstract void undo();
 }
 ```
+
 ###宏命令
+
 > 宏命令又称组合命令，它是命令模式和组合模式联合的产物。宏命令也是一个ConcreteCommand，但是它包含了对其他Command对象的引用。
 
 
