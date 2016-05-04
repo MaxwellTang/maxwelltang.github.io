@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "会议笔记"
-subtitle:   "章玥老师周三例会"
+title:      "S"
+subtitle:   "S"
 date:       2016-05-04 12:00:00
 author:     "Jason Tang"
 header-img: "img/post-bg-2015.jpg"
