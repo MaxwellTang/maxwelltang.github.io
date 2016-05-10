@@ -1,0 +1,15 @@
+---
+layout:     post
+title:      "NOTE"
+subtitle:   "章玥"
+author:     "Jason Tang"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 生活
+---
+
+> Payless Meeting NOTE:
+
+* 熟悉Payless的代码和Floodlight的使用,下周三（2016-05-16）上午的会议要用到。
+
