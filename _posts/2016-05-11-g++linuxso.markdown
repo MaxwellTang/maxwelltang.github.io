@@ -1,0 +1,37 @@
+---
+layout:     post
+title:      "g++编译时如何使用动态链接库文件（so文件）"
+subtitle:   "linux"
+date:       2015-01-29 12:00:00
+author:     "Jason Tang"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - g++
+---
+
+> 编译时突然需要调用动态链接库，博主我用的是g++，动态链接库文件为so文件，当时一脸懵逼，后来还是靠度娘解决了问题，这里做一下笔记。
+
+##环境
+
+我们先假设一个简单的情况：
+* so文件的名称为libDLL.so
+* so文件所在的目录为/home/usrname/dll
+* 与so文件相关的头文件的目录为/home/usrname/include
+* 当前目录为/home/usrname/bbb/bbb
+* 需要编译的文件名为main.cpp
+
+##命令
+
+以上述环境为大前提，敲入下面的代码便可以编译成功：
+'''shell
+g++ -c main.cpp -L/home/usrname/dll -lDLL -I/home/usrname/include
+g++ main.o -o main
+'''
+
+##参数详解
+-L 后面紧跟so文件所在的路径
+-I 后面紧跟头文件所在的路径
+-l 后面跟动态链接库的名称，so文件的名称是有固定规范的（lib名称.so）
+
+-END-
