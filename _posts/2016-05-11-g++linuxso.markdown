@@ -30,12 +30,10 @@ tags:
 
 以上述环境为大前提，敲入下面的代码便可以编译成功：
 
-'''shell
-
+```shell
 g++ -c main.cpp -L/home/usrname/dll -lDLL -I/home/usrname/include
 g++ main.o -o main
-
-'''
+```
 
 ##参数详解
 
