@@ -48,4 +48,3 @@ vlc test.ts --sout "#standard{mux=ts{pid-video=100,pid-audio=101,pid-pmt=98},acc
 vlc udp://@:3940
 ```
  
-#### Sample
