@@ -1,0 +1,20 @@
+---
+layout:     post
+title:      "TS详解"
+subtitle:   "视频TS流"
+author:     "Jason Tang"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 视频流
+    - TS流
+---
+
+> 最近实验要用到视频流，网上给出的比较简单的是用vlc推送视频TS流，关于TS流我不太了解，所以在网上找了相关的资料，并记录一下。
+ 
+## TS流
+ 
+ > TS流：传输流
+ 
+ TS流是由多种数据组成，一个TS包中的数据可以是视频数据，音频数据，填充数据，PSI/SI表格数据等等。而每一种数据类型对应唯一的PID。假如视频数据被标注为{PID=45},那么在该TS流中的所有视频数据的PID都被标注为45,以此来与其他数据类型区别开来。
+
