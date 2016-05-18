@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "例会笔记"
+subtitle:   "SDN"
+date:       2015-01-29 12:00:00
+author:     "Jason Tang"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 例会
+    - SDN
+---
+
+> 今天上午的例会讨论脚本的实现，和数据分析的基准
+ 
+ * 要写的脚本有三个：绘图，数据清洗，数据处理（shell）
+
+ * 使用子类来简化流量生成模块的更改工作（python shell）
+
+ * 数据处理：输出各个算法与wireshark的差值
+
+
