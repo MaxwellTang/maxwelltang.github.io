@@ -1,0 +1,21 @@
+---
+layout:     post
+title:      "MEETING NOTE"
+subtitle:   "章玥"
+author:     "Jason Tang"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 例会
+---
+ 
+> Payless Meeting NOTE:
+ 
+* 完善脚本，分离处理数据和绘图的操作
+ 
+* Payless的Requst的个数输出，与Payless的Instant的输出的条目的个数作比对，检查参数设置的问题
+ 
+* 对差值数据进行汇总，求统计特征，方差，期望。
+ 
+* web业务量：mininet与外网桥接
+
