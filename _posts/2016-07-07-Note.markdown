@@ -1,0 +1,18 @@
+---
+layout:     post
+title:      "例会笔记"
+subtitle:   "NOTE"
+date:       2015-01-29 12:00:00
+author:     "Jason Tang"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 学术
+---
+
+ 
+# 主要内容
+ 
+- 对做过的和要做的场景做文档进行备注
+- 下周五之前完成简单网络拓扑下CBR，VBR，Web业务量中，Payless和FlowSense的检测效果。
+
